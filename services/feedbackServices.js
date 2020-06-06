@@ -44,11 +44,11 @@ class feedbackServices {
                                         semester: semester,
                                         message: "Feedback Successfull",
                                         subject1: subject1values.subject,
-                                        subject2: subject1values.subject,
-                                        subject3: subject1values.subject,
-                                        subject4: subject1values.subject,
-                                        subject5: subject1values.subject,
-                                        subject6: subject1values.subject,
+                                        subject2: subject2values.subject,
+                                        subject3: subject3values.subject,
+                                        subject4: subject4values.subject,
+                                        subject5: subject5values.subject,
+                                        subject6: subject6values.subject,
                                     }
 
                                     return resolve({ message: "Insertion successfull", data: result.ops });
@@ -62,11 +62,11 @@ class feedbackServices {
                                 semester: semester,
                                 message: "Already Submitted",
                                 subject1: subject1values.subject,
-                                subject2: subject1values.subject,
-                                subject3: subject1values.subject,
-                                subject4: subject1values.subject,
-                                subject5: subject1values.subject,
-                                subject6: subject1values.subject,
+                                subject2: subject2values.subject,
+                                subject3: subject3values.subject,
+                                subject4: subject4values.subject,
+                                subject5: subject5values.subject,
+                                subject6: subject6values.subject,
                             }
                             return reject({ message: "User Already submitted feedback with rollNo " + rollNo, error: "" });
                         }
